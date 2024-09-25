@@ -1,0 +1,85 @@
+header {
+    background-color: #FDFDFD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+  }
+  
+  .logo-left {
+    width: 170px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  
+  button {
+    background-color: #C82636;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #A61D28;
+  }
+  
+  .logo-right {
+    width: 50px;
+  }
+  
+  .bottom {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    background-color: #C82636;
+    color: white;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center; /* Alinea el ícono y el input verticalmente */
+    gap: 10px; /* Agrega espacio entre el ícono y el input */
+    width: fit-content;
+    margin-right: 20px; /* Separa el contenedor del lado derecho */
+    border: 2px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 30px; /* Bordes redondeados para el contenedor */
+    background-color: #f9f9f9; /* Color de fondo para un look más limpio */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para un aspecto elegante */
+  }
+  
+  .search-icon {
+    width: 20px; /* Hace el ícono más pequeño */
+    height: 20px; /* Misma altura que el input */
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent; /* Elimina el fondo para un look más limpio */
+    font-family: 'Poppins', sans-serif;
+    width: 200px; /* Ajusta el ancho del input */
+  }
+  
+  .search-input::placeholder {
+    color: #aaa; /* Color más suave para el texto del placeholder */
+  }
+  
+  .search-container:hover {
+    border-color: #999; /* Cambia el color del borde al pasar el cursor */
+  }
+  
+  .search-container:focus-within {
+    border-color: #333; /* Cambia el color del borde cuando el input está enfocado */
+  }
+  

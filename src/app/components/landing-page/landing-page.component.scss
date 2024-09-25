@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap);
+
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  top: 20px;
+}
+
+.carousel-slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  flex-basis: 100%;
+  height: 100%; /* Asegúrate de que el contenedor tenga la altura completa */
+}
+
+.img-carrusel {
+  margin-left: -330px;
+  width: 200%;
+  height: 130%; /* La imagen ocupa todo el contenedor */
+  margin-top: -30px;
+  object-fit: cover; /* Asegura que la imagen se ajuste sin deformarse */
+}
+
+.spider-text {
+
+}
+
+
+.banner-text {
+  position: absolute;
+  bottom: 20px;
+  left: 850px;
+  margin-bottom: 100px;
+  color: white;
+  text-align: right;
+  font-size: 54px;  
+}
+
+.banner-text-h2 {
+  margin: 0;
+  padding: 0 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: 54px;
+}  
+
+.banner-text-p {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+ 
+  .slide-img {
+    width: 100%;
+    height: 100%; /* La imagen ocupa el 100% de la altura */
+    object-fit: cover; /* Asegura que la imagen se ajuste sin deformarse */
+  }
+
+
+.franchises {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .franchises-h1 {
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+    margin-top: 30px;
+  }
+
+  .presentacion {
+    margin-top: 200px;
+  }
+  
+  .franchises-separator {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .franchises-images {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 120px; /* Espacio amplio entre las imágenes */
+  }
+  
+  .franchises-images img {
+    width: 150px;
+    transition: transform 0.3s ease; /* Transición suave para el efecto hover */
+  }
+  
+  .franchises-images img:hover {
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el cursor */
+  }
+  
+  /* Estilo del footer */
+  .footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #C82636;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+  }
+
+  
